@@ -62,7 +62,7 @@ button:hover{
     width: auto;
     height: 818px;
     padding: 33px;
-    background-color: antiquewhite;
+    background-color: #F8F8F8;
 }
 #h-top{
     width: 1152px;
@@ -243,13 +243,42 @@ button:hover{
     color: #ffffff;
     text-shadow: 0 2px 2px rgba(7,17,27,0.4);
 }
-.h_footer{
+.m_footer{
     width: auto;
     height: 410px;
+    text-align: center;
     background-image: url(../img/h_footer.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.m_footer_d{
+    width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    background-color:inherit;
+}
+.m_footer_nav {
+    width: 219px;
+    height: 251px;
+    margin: 25px 11px 25px 10px;
+    float: left;
+    border-radius: 10px;
+    background-color: rgba(240,240,240,0.8);
+}
+.m_footer_img{
+    display: block;
+    margin: 0 auto;
+    clear: left;
+    border-radius: 50%;
+}
+.m_footer_p1{
+    color: #000000;
+    font-size: 16px;
+}
+.m_footer_p2{
+    font-size: 10px;
+    color: #4D555D;
 }
 /*尾部样式*/
 .d_footer{
@@ -262,7 +291,7 @@ button:hover{
 .f_nav_a{
     text-decoration: none;
     color: #93999F;
-    font-size: 15px;
+    font-size: 14px;
     margin: 0 10px 0 10px;
     float: left;
 }
